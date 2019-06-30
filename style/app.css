@@ -1,0 +1,435 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Aleo:300,400,700&display=swap");
+.container {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto; }
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; }
+
+[class^='col'] {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  min-height: 1px; }
+
+.col-12 {
+  width: 100%; }
+
+.col-11 {
+  width: 91.66667%; }
+
+.col-10 {
+  width: 83.33333%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-8 {
+  width: 66.66667%; }
+
+.col-7 {
+  width: 58.33333%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-5 {
+  width: 41.66667%; }
+
+.col-4 {
+  width: 33.33333%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-2 {
+  width: 16.66667%; }
+
+.col-1 {
+  width: 8.33333%; }
+
+body {
+  font-family: sans-serif;
+  font-size: 1rem;
+  padding: 15px; }
+
+a, button {
+  -webkit-transition: .3s ease-in;
+  -o-transition: .3s ease-in;
+  transition: .3s ease-in;
+  -webkit-transition-property: color, background-color, opacity;
+  -o-transition-property: color, background-color, opacity;
+  transition-property: color, background-color, opacity; }
+
+button, .button {
+  cursor: pointer; }
+
+button:hover {
+  background: #c3cccf;
+  color: #3a7999;
+  -webkit-box-shadow: 0 0 0 3px #3a7999;
+  box-shadow: 0 0 0 3px #3a7999; }
+
+.header {
+  background-image: url("../img/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh; }
+  .header .container {
+    height: calc(100vh - 80px); }
+
+.ba-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 30vh; }
+  .ba-header__title {
+    font-size: 3rem;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1; }
+  .ba-header__subtitle {
+    font-size: 1.375rem;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    font-weight: lighter;
+    margin: 15px 0 50px;
+    letter-spacing: 0.2em; }
+  .ba-header__scroll {
+    font-size: 0.875rem;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    line-height: 1.857;
+    margin-top: 15vh; }
+
+.scroll:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3); }
+
+input[placeholder] {
+  font-size: 0.875rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: #999999;
+  text-align: center; }
+
+.ba-header-form {
+  background-color: #fff;
+  height: 60px;
+  padding-right: 3px; }
+  .ba-header-form .search {
+    border: none;
+    height: 100%;
+    width: 500px; }
+  .ba-header-form .search-btn {
+    border: none;
+    height: 55px;
+    width: 150px;
+    font-size: 0.875rem;
+    font-family: 'Aleo', serif;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.857;
+    text-align: center;
+    background-color: #5474fd; }
+    .ba-header-form .search-btn:hover {
+      background-color: #89ebe1; }
+
+.ba-header-nav {
+  background-color: #5474fd;
+  height: 80px; }
+  .ba-header-nav .container {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .ba-header-nav .ba-header-nav__title {
+    font-weight: normal;
+    font-size: 1.5rem;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase; }
+
+.menu__item {
+  display: inline; }
+
+.menu__link {
+  font-size: 0.875rem;
+  font-family: 'Aleo', sans-serif;
+  color: white;
+  text-transform: uppercase; }
+  .menu__link:hover {
+    color: #000; }
+
+.menu__item + .menu__item {
+  margin-left: 40px; }
+
+.main-content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 100px; }
+
+.main-content {
+  background-image: url("../img/why.jpg"); }
+  .main-content__title {
+    font-size: 2.25rem;
+    font-family: 'Aleo', sans-serif;
+    color: white;
+    font-weight: lighter;
+    padding: 200px 0 50px; }
+  .main-content__text {
+    font-size: 1rem;
+    font-family: "Josefin Sans", sans-serif;
+    color: #e8e8e8;
+    line-height: 1.625;
+    font-weight: lighter;
+    letter-spacing: 0.06em; }
+  .main-content__btn {
+    font-size: 1rem;
+    font-family: 'Aleo', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    line-height: 60px;
+    font-weight: lighter;
+    background-color: #496bfe;
+    width: 230px;
+    border: none;
+    margin: 40px 0 0; }
+  .main-content__img-home {
+    padding-top: 120px; }
+  .main-content__img-mount {
+    float: right; }
+
+.links {
+  background-image: url("../img/bg-link.png");
+  background-position: center;
+  height: 340px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .links .main-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .links .main-link__title {
+      font-size: 2.25rem;
+      font-family: 'Aleo', sans-serif;
+      color: #e8e8e8;
+      font-weight: normal;
+      margin-top: 30px; }
+      .links .main-link__title:hover {
+        color: #5474fd; }
+    .links .main-link .link-item {
+      margin: 0 85px;
+      text-align: center;
+      background-color: #333333; }
+
+.spain-first {
+  background-image: url("../img/spain.jpg");
+  background-repeat: no-repeat;
+  padding-top: 14em;
+  padding-bottom: 6em; }
+
+.spain-card {
+  background-color: rgba(35, 35, 35, 0.8);
+  padding: 50px 30px; }
+  .spain-card__title {
+    font-size: 1.25rem;
+    font-family: "Josefin Sans", sans-serif;
+    color: #e8e8e8;
+    font-weight: lighter; }
+  .spain-card__about {
+    font-size: 1.25rem;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 30px 0; }
+  .spain-card__text {
+    font-size: 1rem;
+    font-family: "Josefin Sans", sans-serif;
+    color: #e8e8e8;
+    line-height: 1.625;
+    font-weight: lighter;
+    margin-bottom: 40px; }
+  .spain-card__btn {
+    background-color: #5474fd;
+    width: 225px;
+    font-size: 1rem;
+    font-family: 'Aleo', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    line-height: 60px;
+    border: none;
+    font-weight: normal; }
+
+.spain-second {
+  background-image: url("../img/spain-1.jpg");
+  background-repeat: no-repeat;
+  padding-top: 14em;
+  padding-bottom: 6em; }
+  .spain-second .spain-card {
+    margin-left: auto; }
+
+.tourist {
+  background-image: url("../img/review.jpg");
+  background-repeat: no-repeat;
+  padding: 7em 0 12em; }
+  .tourist__title {
+    font-size: 2.25rem;
+    font-family: 'Aleo', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 90px; }
+
+.tourist-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .tourist-card .tourist-info {
+    padding: 50px; }
+    .tourist-card .tourist-info__name {
+      font-size: 1.25rem;
+      font-family: "Josefin Sans", sans-serif;
+      color: #fefefe;
+      text-transform: uppercase;
+      font-weight: 300;
+      margin-bottom: 30px; }
+    .tourist-card .tourist-info__feedback {
+      font-size: 1rem;
+      font-family: "Josefin Sans", sans-serif;
+      color: #fff;
+      font-weight: 300;
+      line-height: 1.6; }
+
+.ba-footer {
+  height: 270px;
+  background-color: #232323;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .ba-footer__title {
+    font-size: 2.25rem;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .ba-footer__subtitle {
+    font-size: 1rem;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    margin: 15px 0 30px; }
+
+.social__link {
+  width: 15px;
+  height: 15px;
+  fill: #fff; }
+  .social__link:hover {
+    fill: #5474fd; }
+
+.social a {
+  margin-left: 25px; }
+
+@media screen and (max-width: 700px) {
+  .ba-header-form {
+    height: 30px;
+    width: 70%; }
+    .ba-header-form .search {
+      width: 68%; }
+    .ba-header-form .search-btn {
+      height: 25px;
+      width: 30%;
+      font-size: 0.5rem; }
+  .header .container {
+    height: calc(100vh - 140px); }
+  input[placeholder] {
+    font-size: 0.5rem; }
+  .ba-header-nav {
+    padding: 15px;
+    height: 140px; }
+    .ba-header-nav .container {
+      height: 100%; }
+  .menu__item {
+    display: block; }
+  .menu__item + .menu__item {
+    margin: 0;
+    margin-top: 10px; }
+  .col-6 {
+    width: 100%; }
+  .main-content-container {
+    display: block;
+    padding-bottom: 30px; }
+  .main-content__title {
+    padding: 20px 0 15px; }
+  .main-content__img-home {
+    padding-top: 30px; }
+  .main-content__img-mount {
+    padding-top: 30px;
+    float: none; }
+  .links {
+    padding: 15px;
+    height: auto;
+    background-position: top; }
+    .links .main-link {
+      display: block; }
+      .links .main-link .link-item {
+        margin-bottom: 20px; }
+      .links .main-link__title {
+        margin: 0; }
+  .spain-first, .spain-second {
+    padding: 100px 0;
+    background-position: center; }
+  .tourist {
+    padding-top: 25px;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 25px; }
+    .tourist__title {
+      margin-bottom: 25px; }
+  .tourist-card {
+    display: block; } }
+
+/*# sourceMappingURL=app.css.map */
